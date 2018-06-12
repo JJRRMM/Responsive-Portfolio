@@ -216,22 +216,36 @@ input[type=submit] {
   border: 0 none;
 }
   @media screen and (max-width: 980px) {
-    
-  /* The wrapper's width will be 600px */
-  .container {
-    width: 960px;
-  }
-}
-      @media screen and (max-width: 768px) {
- 
-  /* The wrapper's width will be 600px */
-  .container {
-    width: 768px;
-  }
-  @media screen and (max-width: 640px) {
+    h1{
+      background-color: green;
+    }    
+    .container {
+      width: 100%;      
+    }
+    #masthead {
+      width:100%;
+    }
   
+}
+
+  @media screen and (max-width: 768px) {
+     h1{
+       background-color: red;
+     }
+     .container {
+       width: 100%;      
+     }
+    }
   /* The wrapper's width will be 600px */
-  .container {
-    width: 600px;
-  }
+    
+  
+  @media screen and (max-width: 640px) {
+    h1{
+      background-color: blue;
+    }
+    .container { 
+      width: 100%;      
+    }
+  /* The wrapper's width will be 600px */
+  
 }
